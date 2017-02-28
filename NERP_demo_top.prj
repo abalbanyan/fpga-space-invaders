@@ -1,0 +1,3 @@
+verilog work "../../Downloads/vga colorbar nex3-20170228/vga640x480.v"
+verilog work "../../Downloads/vga colorbar nex3-20170228/clockdiv.v"
+verilog work "../../Downloads/vga colorbar nex3-20170228/NERP_demo_top.v"

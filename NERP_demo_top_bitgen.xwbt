@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\152\Desktop\space_invaders\NERP_demo_top.ncd
+OUTFILE=C:\Users\152\Desktop\space_invaders\NERP_demo_top.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=C:\Users\152\Desktop\space_invaders
+LICENSE=ISE
+USER_INFO=203015155_203016297_210565169_105

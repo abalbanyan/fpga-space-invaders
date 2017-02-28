@@ -1,0 +1,26 @@
+//! **************************************************************************
+// Written by: Map P.68d on Tue Feb 28 14:02:10 2017
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "red<1>" LOCATE = SITE "V7" LEVEL 1;
+COMP "red<2>" LOCATE = SITE "N7" LEVEL 1;
+COMP "clk" LOCATE = SITE "V10" LEVEL 1;
+COMP "clr" LOCATE = SITE "D9" LEVEL 1;
+COMP "green<0>" LOCATE = SITE "P8" LEVEL 1;
+COMP "green<1>" LOCATE = SITE "T6" LEVEL 1;
+COMP "green<2>" LOCATE = SITE "V6" LEVEL 1;
+COMP "hsync" LOCATE = SITE "N6" LEVEL 1;
+COMP "vsync" LOCATE = SITE "P7" LEVEL 1;
+COMP "blue<0>" LOCATE = SITE "R7" LEVEL 1;
+COMP "blue<1>" LOCATE = SITE "T7" LEVEL 1;
+COMP "red<0>" LOCATE = SITE "U7" LEVEL 1;
+TIMEGRP sys_clk_pin = BEL "rst_ff" BEL "rst" BEL "U1/q_0" BEL "U1/q_1" BEL
+        "U3/hc_9" BEL "U3/hc_8" BEL "U3/hc_6" BEL "U3/hc_5" BEL "U3/hc_7" BEL
+        "U3/hc_3" BEL "U3/hc_2" BEL "U3/hc_4" BEL "U3/hc_1" BEL "U3/hc_0" BEL
+        "U3/vc_0" BEL "U3/vc_8" BEL "U3/vc_7" BEL "U3/vc_9" BEL "U3/vc_5" BEL
+        "U3/vc_4" BEL "U3/vc_6" BEL "U3/vc_2" BEL "U3/vc_1" BEL "U3/vc_3" BEL
+        "clk_BUFGP/BUFG";
+TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_pin" 100 MHz HIGH 50%;
+SCHEMATIC END;
+
