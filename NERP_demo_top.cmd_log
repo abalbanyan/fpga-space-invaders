@@ -4,3 +4,232 @@ map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -re
 par -w -intstyle ise -ol high -mt off NERP_demo_top_map.ncd NERP_demo_top.ncd NERP_demo_top.pcf 
 trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NERP_demo_top.twx NERP_demo_top.ncd -o NERP_demo_top.twr NERP_demo_top.pcf 
 bitgen -intstyle ise -f NERP_demo_top.ut NERP_demo_top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.xst" -ofn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/152/Downloads/vga colorbar nex3-20170228/nexys3.ucf" -p xc6slx16-csg324-3 NERP_demo_top.ngc NERP_demo_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o NERP_demo_top_map.ncd NERP_demo_top.ngd NERP_demo_top.pcf 
+par -w -intstyle ise -ol high -mt off NERP_demo_top_map.ncd NERP_demo_top.ncd NERP_demo_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NERP_demo_top.twx NERP_demo_top.ncd -o NERP_demo_top.twr NERP_demo_top.pcf 
+bitgen -intstyle ise -f NERP_demo_top.ut NERP_demo_top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.xst" -ofn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/152/Downloads/vga colorbar nex3-20170228/nexys3.ucf" -p xc6slx16-csg324-3 NERP_demo_top.ngc NERP_demo_top.ngd  
+xst -intstyle ise -ifn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.xst" -ofn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/152/Downloads/vga colorbar nex3-20170228/nexys3.ucf" -p xc6slx16-csg324-3 NERP_demo_top.ngc NERP_demo_top.ngd  
+xst -intstyle ise -ifn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.xst" -ofn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/152/Downloads/vga colorbar nex3-20170228/nexys3.ucf" -p xc6slx16-csg324-3 NERP_demo_top.ngc NERP_demo_top.ngd  
+xst -intstyle ise -ifn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.xst" -ofn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/152/Downloads/vga colorbar nex3-20170228/nexys3.ucf" -p xc6slx16-csg324-3 NERP_demo_top.ngc NERP_demo_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o NERP_demo_top_map.ncd NERP_demo_top.ngd NERP_demo_top.pcf 
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o NERP_demo_top_map.ncd NERP_demo_top.ngd NERP_demo_top.pcf 
+par -w -intstyle ise -ol high -mt off NERP_demo_top_map.ncd NERP_demo_top.ncd NERP_demo_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NERP_demo_top.twx NERP_demo_top.ncd -o NERP_demo_top.twr NERP_demo_top.pcf 
+bitgen -intstyle ise -f NERP_demo_top.ut NERP_demo_top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.xst" -ofn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/152/Downloads/vga colorbar nex3-20170228/nexys3.ucf" -p xc6slx16-csg324-3 NERP_demo_top.ngc NERP_demo_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o NERP_demo_top_map.ncd NERP_demo_top.ngd NERP_demo_top.pcf 
+par -w -intstyle ise -ol high -mt off NERP_demo_top_map.ncd NERP_demo_top.ncd NERP_demo_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NERP_demo_top.twx NERP_demo_top.ncd -o NERP_demo_top.twr NERP_demo_top.pcf 
+bitgen -intstyle ise -f NERP_demo_top.ut NERP_demo_top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.xst" -ofn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/152/Downloads/vga colorbar nex3-20170228/nexys3.ucf" -p xc6slx16-csg324-3 NERP_demo_top.ngc NERP_demo_top.ngd  
+xst -intstyle ise -ifn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.xst" -ofn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/152/Downloads/vga colorbar nex3-20170228/nexys3.ucf" -p xc6slx16-csg324-3 NERP_demo_top.ngc NERP_demo_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o NERP_demo_top_map.ncd NERP_demo_top.ngd NERP_demo_top.pcf 
+par -w -intstyle ise -ol high -mt off NERP_demo_top_map.ncd NERP_demo_top.ncd NERP_demo_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NERP_demo_top.twx NERP_demo_top.ncd -o NERP_demo_top.twr NERP_demo_top.pcf 
+bitgen -intstyle ise -f NERP_demo_top.ut NERP_demo_top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.xst" -ofn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/152/Downloads/vga colorbar nex3-20170228/nexys3.ucf" -p xc6slx16-csg324-3 NERP_demo_top.ngc NERP_demo_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o NERP_demo_top_map.ncd NERP_demo_top.ngd NERP_demo_top.pcf 
+par -w -intstyle ise -ol high -mt off NERP_demo_top_map.ncd NERP_demo_top.ncd NERP_demo_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NERP_demo_top.twx NERP_demo_top.ncd -o NERP_demo_top.twr NERP_demo_top.pcf 
+bitgen -intstyle ise -f NERP_demo_top.ut NERP_demo_top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.xst" -ofn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.xst" -ofn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.xst" -ofn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/152/Downloads/vga colorbar nex3-20170228/nexys3.ucf" -p xc6slx16-csg324-3 NERP_demo_top.ngc NERP_demo_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o NERP_demo_top_map.ncd NERP_demo_top.ngd NERP_demo_top.pcf 
+par -w -intstyle ise -ol high -mt off NERP_demo_top_map.ncd NERP_demo_top.ncd NERP_demo_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NERP_demo_top.twx NERP_demo_top.ncd -o NERP_demo_top.twr NERP_demo_top.pcf 
+bitgen -intstyle ise -f NERP_demo_top.ut NERP_demo_top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.xst" -ofn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/152/Downloads/vga colorbar nex3-20170228/nexys3.ucf" -p xc6slx16-csg324-3 NERP_demo_top.ngc NERP_demo_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o NERP_demo_top_map.ncd NERP_demo_top.ngd NERP_demo_top.pcf 
+par -w -intstyle ise -ol high -mt off NERP_demo_top_map.ncd NERP_demo_top.ncd NERP_demo_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NERP_demo_top.twx NERP_demo_top.ncd -o NERP_demo_top.twr NERP_demo_top.pcf 
+bitgen -intstyle ise -f NERP_demo_top.ut NERP_demo_top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.xst" -ofn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/152/Downloads/vga colorbar nex3-20170228/nexys3.ucf" -p xc6slx16-csg324-3 NERP_demo_top.ngc NERP_demo_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o NERP_demo_top_map.ncd NERP_demo_top.ngd NERP_demo_top.pcf 
+par -w -intstyle ise -ol high -mt off NERP_demo_top_map.ncd NERP_demo_top.ncd NERP_demo_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NERP_demo_top.twx NERP_demo_top.ncd -o NERP_demo_top.twr NERP_demo_top.pcf 
+bitgen -intstyle ise -f NERP_demo_top.ut NERP_demo_top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.xst" -ofn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/152/Downloads/vga colorbar nex3-20170228/nexys3.ucf" -p xc6slx16-csg324-3 NERP_demo_top.ngc NERP_demo_top.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/152/Downloads/vga colorbar nex3-20170228/nexys3.ucf" -p xc6slx16-csg324-3 NERP_demo_top.ngc NERP_demo_top.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/152/Downloads/vga colorbar nex3-20170228/nexys3.ucf" -p xc6slx16-csg324-3 NERP_demo_top.ngc NERP_demo_top.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/152/Downloads/vga colorbar nex3-20170228/nexys3.ucf" -p xc6slx16-csg324-3 NERP_demo_top.ngc NERP_demo_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o NERP_demo_top_map.ncd NERP_demo_top.ngd NERP_demo_top.pcf 
+par -w -intstyle ise -ol high -mt off NERP_demo_top_map.ncd NERP_demo_top.ncd NERP_demo_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NERP_demo_top.twx NERP_demo_top.ncd -o NERP_demo_top.twr NERP_demo_top.pcf 
+bitgen -intstyle ise -f NERP_demo_top.ut NERP_demo_top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.xst" -ofn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/152/Downloads/vga colorbar nex3-20170228/nexys3.ucf" -p xc6slx16-csg324-3 NERP_demo_top.ngc NERP_demo_top.ngd  
+xst -intstyle ise -ifn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.xst" -ofn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.xst" -ofn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/152/Downloads/vga colorbar nex3-20170228/nexys3.ucf" -p xc6slx16-csg324-3 NERP_demo_top.ngc NERP_demo_top.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/152/Downloads/vga colorbar nex3-20170228/nexys3.ucf" -p xc6slx16-csg324-3 NERP_demo_top.ngc NERP_demo_top.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/152/Downloads/vga colorbar nex3-20170228/nexys3.ucf" -p xc6slx16-csg324-3 NERP_demo_top.ngc NERP_demo_top.ngd  
+xst -intstyle ise -ifn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.xst" -ofn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 NERP_demo_top.ngc NERP_demo_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o NERP_demo_top_map.ncd NERP_demo_top.ngd NERP_demo_top.pcf 
+par -w -intstyle ise -ol high -mt off NERP_demo_top_map.ncd NERP_demo_top.ncd NERP_demo_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NERP_demo_top.twx NERP_demo_top.ncd -o NERP_demo_top.twr NERP_demo_top.pcf 
+bitgen -intstyle ise -f NERP_demo_top.ut NERP_demo_top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.xst" -ofn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 NERP_demo_top.ngc NERP_demo_top.ngd  
+xst -intstyle ise -ifn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.xst" -ofn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.xst" -ofn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 NERP_demo_top.ngc NERP_demo_top.ngd  
+xst -intstyle ise -ifn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.xst" -ofn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.xst" -ofn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 NERP_demo_top.ngc NERP_demo_top.ngd  
+xst -intstyle ise -ifn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.xst" -ofn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 NERP_demo_top.ngc NERP_demo_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o NERP_demo_top_map.ncd NERP_demo_top.ngd NERP_demo_top.pcf 
+par -w -intstyle ise -ol high -mt off NERP_demo_top_map.ncd NERP_demo_top.ncd NERP_demo_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NERP_demo_top.twx NERP_demo_top.ncd -o NERP_demo_top.twr NERP_demo_top.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f NERP_demo_top.ut NERP_demo_top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.xst" -ofn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 NERP_demo_top.ngc NERP_demo_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o NERP_demo_top_map.ncd NERP_demo_top.ngd NERP_demo_top.pcf 
+par -w -intstyle ise -ol high -mt off NERP_demo_top_map.ncd NERP_demo_top.ncd NERP_demo_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NERP_demo_top.twx NERP_demo_top.ncd -o NERP_demo_top.twr NERP_demo_top.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f NERP_demo_top.ut NERP_demo_top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.xst" -ofn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 NERP_demo_top.ngc NERP_demo_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o NERP_demo_top_map.ncd NERP_demo_top.ngd NERP_demo_top.pcf 
+par -w -intstyle ise -ol high -mt off NERP_demo_top_map.ncd NERP_demo_top.ncd NERP_demo_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NERP_demo_top.twx NERP_demo_top.ncd -o NERP_demo_top.twr NERP_demo_top.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f NERP_demo_top.ut NERP_demo_top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.xst" -ofn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 NERP_demo_top.ngc NERP_demo_top.ngd  
+xst -intstyle ise -ifn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.xst" -ofn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 NERP_demo_top.ngc NERP_demo_top.ngd  
+xst -intstyle ise -ifn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.xst" -ofn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.xst" -ofn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 NERP_demo_top.ngc NERP_demo_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o NERP_demo_top_map.ncd NERP_demo_top.ngd NERP_demo_top.pcf 
+par -w -intstyle ise -ol high -mt off NERP_demo_top_map.ncd NERP_demo_top.ncd NERP_demo_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NERP_demo_top.twx NERP_demo_top.ncd -o NERP_demo_top.twr NERP_demo_top.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f NERP_demo_top.ut NERP_demo_top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.xst" -ofn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 NERP_demo_top.ngc NERP_demo_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o NERP_demo_top_map.ncd NERP_demo_top.ngd NERP_demo_top.pcf 
+par -w -intstyle ise -ol high -mt off NERP_demo_top_map.ncd NERP_demo_top.ncd NERP_demo_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NERP_demo_top.twx NERP_demo_top.ncd -o NERP_demo_top.twr NERP_demo_top.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f NERP_demo_top.ut NERP_demo_top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.xst" -ofn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 NERP_demo_top.ngc NERP_demo_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o NERP_demo_top_map.ncd NERP_demo_top.ngd NERP_demo_top.pcf 
+par -w -intstyle ise -ol high -mt off NERP_demo_top_map.ncd NERP_demo_top.ncd NERP_demo_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NERP_demo_top.twx NERP_demo_top.ncd -o NERP_demo_top.twr NERP_demo_top.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f NERP_demo_top.ut NERP_demo_top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.xst" -ofn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.xst" -ofn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 NERP_demo_top.ngc NERP_demo_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o NERP_demo_top_map.ncd NERP_demo_top.ngd NERP_demo_top.pcf 
+par -w -intstyle ise -ol high -mt off NERP_demo_top_map.ncd NERP_demo_top.ncd NERP_demo_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NERP_demo_top.twx NERP_demo_top.ncd -o NERP_demo_top.twr NERP_demo_top.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f NERP_demo_top.ut NERP_demo_top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.xst" -ofn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 NERP_demo_top.ngc NERP_demo_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o NERP_demo_top_map.ncd NERP_demo_top.ngd NERP_demo_top.pcf 
+par -w -intstyle ise -ol high -mt off NERP_demo_top_map.ncd NERP_demo_top.ncd NERP_demo_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NERP_demo_top.twx NERP_demo_top.ncd -o NERP_demo_top.twr NERP_demo_top.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f NERP_demo_top.ut NERP_demo_top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.xst" -ofn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 NERP_demo_top.ngc NERP_demo_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o NERP_demo_top_map.ncd NERP_demo_top.ngd NERP_demo_top.pcf 
+par -w -intstyle ise -ol high -mt off NERP_demo_top_map.ncd NERP_demo_top.ncd NERP_demo_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NERP_demo_top.twx NERP_demo_top.ncd -o NERP_demo_top.twr NERP_demo_top.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f NERP_demo_top.ut NERP_demo_top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.xst" -ofn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.xst" -ofn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 NERP_demo_top.ngc NERP_demo_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o NERP_demo_top_map.ncd NERP_demo_top.ngd NERP_demo_top.pcf 
+par -w -intstyle ise -ol high -mt off NERP_demo_top_map.ncd NERP_demo_top.ncd NERP_demo_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NERP_demo_top.twx NERP_demo_top.ncd -o NERP_demo_top.twr NERP_demo_top.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f NERP_demo_top.ut NERP_demo_top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.xst" -ofn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 NERP_demo_top.ngc NERP_demo_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o NERP_demo_top_map.ncd NERP_demo_top.ngd NERP_demo_top.pcf 
+par -w -intstyle ise -ol high -mt off NERP_demo_top_map.ncd NERP_demo_top.ncd NERP_demo_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NERP_demo_top.twx NERP_demo_top.ncd -o NERP_demo_top.twr NERP_demo_top.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f NERP_demo_top.ut NERP_demo_top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.xst" -ofn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.xst" -ofn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 NERP_demo_top.ngc NERP_demo_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o NERP_demo_top_map.ncd NERP_demo_top.ngd NERP_demo_top.pcf 
+par -w -intstyle ise -ol high -mt off NERP_demo_top_map.ncd NERP_demo_top.ncd NERP_demo_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NERP_demo_top.twx NERP_demo_top.ncd -o NERP_demo_top.twr NERP_demo_top.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f NERP_demo_top.ut NERP_demo_top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.xst" -ofn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.xst" -ofn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.xst" -ofn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.xst" -ofn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.xst" -ofn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 NERP_demo_top.ngc NERP_demo_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o NERP_demo_top_map.ncd NERP_demo_top.ngd NERP_demo_top.pcf 
+par -w -intstyle ise -ol high -mt off NERP_demo_top_map.ncd NERP_demo_top.ncd NERP_demo_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NERP_demo_top.twx NERP_demo_top.ncd -o NERP_demo_top.twr NERP_demo_top.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f NERP_demo_top.ut NERP_demo_top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.xst" -ofn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.xst" -ofn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 NERP_demo_top.ngc NERP_demo_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o NERP_demo_top_map.ncd NERP_demo_top.ngd NERP_demo_top.pcf 
+par -w -intstyle ise -ol high -mt off NERP_demo_top_map.ncd NERP_demo_top.ncd NERP_demo_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NERP_demo_top.twx NERP_demo_top.ncd -o NERP_demo_top.twr NERP_demo_top.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f NERP_demo_top.ut NERP_demo_top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.xst" -ofn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.xst" -ofn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 NERP_demo_top.ngc NERP_demo_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o NERP_demo_top_map.ncd NERP_demo_top.ngd NERP_demo_top.pcf 
+par -w -intstyle ise -ol high -mt off NERP_demo_top_map.ncd NERP_demo_top.ncd NERP_demo_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NERP_demo_top.twx NERP_demo_top.ncd -o NERP_demo_top.twr NERP_demo_top.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f NERP_demo_top.ut NERP_demo_top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.xst" -ofn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 NERP_demo_top.ngc NERP_demo_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o NERP_demo_top_map.ncd NERP_demo_top.ngd NERP_demo_top.pcf 
+par -w -intstyle ise -ol high -mt off NERP_demo_top_map.ncd NERP_demo_top.ncd NERP_demo_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NERP_demo_top.twx NERP_demo_top.ncd -o NERP_demo_top.twr NERP_demo_top.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f NERP_demo_top.ut NERP_demo_top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.xst" -ofn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 NERP_demo_top.ngc NERP_demo_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o NERP_demo_top_map.ncd NERP_demo_top.ngd NERP_demo_top.pcf 
+par -w -intstyle ise -ol high -mt off NERP_demo_top_map.ncd NERP_demo_top.ncd NERP_demo_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NERP_demo_top.twx NERP_demo_top.ncd -o NERP_demo_top.twr NERP_demo_top.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f NERP_demo_top.ut NERP_demo_top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.xst" -ofn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 NERP_demo_top.ngc NERP_demo_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o NERP_demo_top_map.ncd NERP_demo_top.ngd NERP_demo_top.pcf 
+par -w -intstyle ise -ol high -mt off NERP_demo_top_map.ncd NERP_demo_top.ncd NERP_demo_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NERP_demo_top.twx NERP_demo_top.ncd -o NERP_demo_top.twr NERP_demo_top.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f NERP_demo_top.ut NERP_demo_top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.xst" -ofn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 NERP_demo_top.ngc NERP_demo_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o NERP_demo_top_map.ncd NERP_demo_top.ngd NERP_demo_top.pcf 
+par -w -intstyle ise -ol high -mt off NERP_demo_top_map.ncd NERP_demo_top.ncd NERP_demo_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NERP_demo_top.twx NERP_demo_top.ncd -o NERP_demo_top.twr NERP_demo_top.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f NERP_demo_top.ut NERP_demo_top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.xst" -ofn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 NERP_demo_top.ngc NERP_demo_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o NERP_demo_top_map.ncd NERP_demo_top.ngd NERP_demo_top.pcf 
+par -w -intstyle ise -ol high -mt off NERP_demo_top_map.ncd NERP_demo_top.ncd NERP_demo_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NERP_demo_top.twx NERP_demo_top.ncd -o NERP_demo_top.twr NERP_demo_top.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f NERP_demo_top.ut NERP_demo_top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.xst" -ofn "C:/Users/152/Desktop/space_invaders/NERP_demo_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 NERP_demo_top.ngc NERP_demo_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o NERP_demo_top_map.ncd NERP_demo_top.ngd NERP_demo_top.pcf 
+par -w -intstyle ise -ol high -mt off NERP_demo_top_map.ncd NERP_demo_top.ncd NERP_demo_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NERP_demo_top.twx NERP_demo_top.ncd -o NERP_demo_top.twr NERP_demo_top.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f NERP_demo_top.ut NERP_demo_top.ncd 
